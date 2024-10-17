@@ -7,7 +7,7 @@ Release:        %mkrel 1
 Summary:        GDB for (remote) debugging %{target} binaries
 Group:          Development/Tools
 License:        GPLv2+
-URL:            http://sources.redhat.com/gdb/
+URL:            https://sources.redhat.com/gdb/
 Source0:        http://ftp.gnu.org/gnu/gdb/gdb-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-%(%{__id_u} -n)
 BuildRequires:  ncurses-devel chrpath
