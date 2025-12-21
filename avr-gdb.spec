@@ -10,6 +10,7 @@ License:        GPLv2+
 URL:            https://sources.redhat.com/gdb/
 Source0:        http://ftp.gnu.org/gnu/gdb/gdb-%{version}.tar.bz2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-%(%{__id_u} -n)
+BuildRequires:	make
 BuildRequires:  ncurses-devel chrpath
 Conflicts:      cross-avr-gdb
 
