@@ -3,7 +3,7 @@
 %define distsuffix edm
 Name:           %{target}-gdb
 Version:        7.1
-Release:        %mkrel 1
+Release:        2
 Summary:        GDB for (remote) debugging %{target} binaries
 Group:          Development/Tools
 License:        GPLv2+
